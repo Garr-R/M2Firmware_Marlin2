@@ -60,7 +60,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(M2_Marlin-v2.1.2 - MG-v0.0.1 - Garrett 03/06/2023)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(M2_Marlin-v2.1.2 - MG-v0.0.1 - Garrett 03/06/2023)" //// Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
