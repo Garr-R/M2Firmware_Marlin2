@@ -5,7 +5,7 @@ name: Build Marlin Firmware
 on:
   push:
     branches:
-      - master
+      - main
       #- test-two-configs
     paths-ignore:
       - '.github/workflows/ghcr-docker-publish.yml'
