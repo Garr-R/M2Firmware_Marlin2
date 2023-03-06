@@ -6,12 +6,9 @@ on:
   push:
     branches:
       - main
-      #- test-two-configs
-    paths-ignore:
-      - '.github/workflows/ghcr-docker-publish.yml'
-    #paths:
-    #  - 'Firmware/Configuration/**.h'
-    #  - '.github/workflows/github-action.yml'
+    paths:
+      - 'Firmware/Configuration/**.h'
+      - '.github/workflows/github-action.yml'
 
 jobs:
   build_and_push:
