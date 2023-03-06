@@ -6,6 +6,38 @@ on:
   push:
     branches:
       - main
+      - S_Zmin_v4
+      - S_Zmin_v4_r2
+      - S_Zmin_v4_X
+      - S_Zmin_v4_X_r2
+      - S_Zmin_v4_XY_r2
+      - S_Zmin_v4dual
+      - S_Zmin_v4dual_X
+      - S_Zmin_v4dual_XY
+      - S_Zmax_v4
+      - S_Zmax_v4_r2
+      - S_Zmax_v4_X
+      - S_Zmax_v4_X_r2
+      - S_Zmax_v4_XY_r2
+      - S_Zmax_v4dual
+      - S_Zmax_v4dual_X
+      - S_Zmax_v4dual_XY
+      - B_Zmin_v4
+      - B_Zmin_v4_r2
+      - B_Zmin_v4_X
+      - B_Zmin_v4_X_r2
+      - B_Zmin_v4_XY
+      - B_Zmin_v4dual
+      - B_Zmin_v4dual_X
+      - B_Zmin_v4dual_XY
+      - B_Zmax_v4
+      - B_Zmax_v4_r2
+      - B_Zmax_v4_X
+      - B_Zmax_v4_X_r2
+      # B_Zmax_v4_XY_r2 - this is the main branch
+      - B_Zmax_v4dual
+      - B_Zmax_v4dual_X
+      - B_Zmax_v4dual_XY
     paths:
       - 'Firmware/Configuration/**.h'
       - '.github/workflows/github-action.yml'
