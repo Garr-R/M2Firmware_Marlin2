@@ -16,7 +16,9 @@ Each branch of this GitHub repository will include a different, pre-built M2 har
 
 ## Installing Marlin 
 
-There is a firmware .hex file within the /Firmware/Builds/ directory of each firmware branch. Users can download the .hex file for their machine's hardware configuration and then (easily!) upload the firmware to their M2 printer using PrusaSlicer over USB connection. For the time being I've (roughly) copied [Prusa's documentation](https://help.prusa3d.com/article/firmware-updating-mk3s-mk3s-mk3_2227) on how to upload firmware:
+Users can download the firmware .hex file for their machine's hardware configuration and then (easily!) upload the firmware to their M2 printer using PrusaSlicer over USB connection. The .hex file within the /Firmware/Builds/ directory of each firmware branch. 
+
+For the time being I've (roughly) copied [Prusa's documentation](https://help.prusa3d.com/article/firmware-updating-mk3s-mk3s-mk3_2227) on how to upload firmware:
 
 1. To flash the firmware into your printer, connect the RAMBo board to your computer using the square-shaped USB-B 2.0 cable. The printer must be ON!
 2. Download firmware
