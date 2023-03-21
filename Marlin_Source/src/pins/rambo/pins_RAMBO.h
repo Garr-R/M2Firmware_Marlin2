@@ -85,9 +85,9 @@
 //
 // Steppers
 //
-#define X_STEP_PIN                            33 // was 37
-#define X_DIR_PIN                             42 // was 48
-#define X_ENABLE_PIN                          25 // was 29
+#define X_STEP_PIN                            37
+#define X_DIR_PIN                             48
+#define X_ENABLE_PIN                          29
 
 #define Y_STEP_PIN                            36
 #define Y_DIR_PIN                             49
@@ -101,21 +101,21 @@
 #define E0_DIR_PIN                            43
 #define E0_ENABLE_PIN                         26
 
-#define E1_STEP_PIN                           37 // was 33
-#define E1_DIR_PIN                            48 // was 42
-#define E1_ENABLE_PIN                         29 // was 25
+#define E1_STEP_PIN                           33
+#define E1_DIR_PIN                            42
+#define E1_ENABLE_PIN                         25
 
 // Microstepping pins - Mapping not from fastio.h (?)
-#define X_MS1_PIN                             63 // was 40
-#define X_MS2_PIN                             64 // was 41
+#define X_MS1_PIN                             40
+#define X_MS2_PIN                             41
 #define Y_MS1_PIN                             69
 #define Y_MS2_PIN                             39
 #define Z_MS1_PIN                             68
 #define Z_MS2_PIN                             67
 #define E0_MS1_PIN                            65
 #define E0_MS2_PIN                            66
-#define E1_MS1_PIN                            40 // was 63
-#define E1_MS2_PIN                            41 // was 64
+#define E1_MS1_PIN                            63
+#define E1_MS2_PIN                            64
 
 #define DIGIPOTSS_PIN                         38
 #define DIGIPOT_CHANNELS { 4, 5, 3, 0, 1 }        // X Y Z E0 E1 digipot channels to stepper driver mapping
