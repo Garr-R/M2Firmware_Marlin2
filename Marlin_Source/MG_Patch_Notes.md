@@ -6,5 +6,7 @@ v0.0.2beta
 v0.0.3beta
     - added a custom machine name 
     - disabled Z-min endstop port
-    - fixed X/Y jerk settings
+    - fixed X/Y jerk settings (using M3 values)
     - Reversed the LCD menu direction
+v0.0.4beta
+    - fixed motor current (using M3 values)
