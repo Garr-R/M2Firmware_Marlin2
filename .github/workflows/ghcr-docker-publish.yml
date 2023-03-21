@@ -8,7 +8,7 @@ on:
       - 'README.md'
       - '.gitignore'
       - 'docker-compose.yml'
-      - 'Firmware/Configuration/**.h'
+      - 'Firmware/*'
       - '.github/workflows/github-action.yml'
       - 'build-marlin.sh'
       - 'Marlin_Source'
