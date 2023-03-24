@@ -10,3 +10,10 @@ v0.0.3beta
     - Reversed the LCD menu direction
 v0.0.4beta
     - fixed motor current (using M3 values)
+    - set Z_homing_height to 10mm (using M3 values)
+    - fixed acceleration settings (using M3 values)
+    - fixed homing_bump settings  (using M3 values)
+    - fixed encoder steps per/s (using M3 values)
+    - lowered X/Y feedrate 300 -> 250
+
+    
