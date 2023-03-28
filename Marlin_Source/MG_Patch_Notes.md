@@ -15,5 +15,7 @@ v0.0.4beta
     - fixed homing_bump settings  (using M3 values)
     - fixed encoder steps per/s (using M3 values)
     - lowered X/Y feedrate 300 -> 250
-
-    
+v0.0.5beta
+    - changed custom machine name (now "MakerGear M2")
+    - editing advanced pause/resume/filament change settings
+    - enabled "DISTINCT_E_FACTORS", mainly for the M2 dual configurations
