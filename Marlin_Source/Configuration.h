@@ -60,7 +60,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(MakerGear M2 | B_Zmax_v4_X_r2 | Marlin-v2.1.2 - Garrett 06/03/2023)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(MakerGear M2 | B_Zmax_v4_XY_r2 | Marlin-v2.1.2 - Garrett 06/03/2023)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -1168,7 +1168,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.1, 88.88, 1007.7, 471.5 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.1, 80.1, 1007.7, 471.5 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
